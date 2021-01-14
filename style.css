@@ -1,0 +1,158 @@
+
+
+
+/* || header layout */
+
+
+header {
+
+  margin-bottom: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  color: #008C45;
+  background-image: url("/Users/pe/Desktop/pizzashop/brownstone.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {text-align: center;}
+
+
+/*navigation buttons*/
+
+.home {
+	background-color: #008C45;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow: 3px 3px 3px #2f6627;
+}
+
+
+
+.order {
+	background-color:#008C45;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:3px 3px 3px #2f6627;
+}
+
+/*order form*/
+
+
+.orderform{
+
+
+background-image: url("/Users/pe/Desktop/pizzashop/salsbox 2.jpg");
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.salsheading{
+  color: #008C45;
+  margin: auto;
+  width: 50%;
+  border: clear;
+  padding: 10px;
+}
+
+
+
+.about {float:left;
+
+border-radius: 8px;
+
+width:270px;height:270px;margin-right:15px;
+
+}
+
+.about2 {float:right;
+
+border-radius: 8px;
+width:270px;height:270px;margin-right:15px;
+
+}
+
+
+
+.line1{
+
+
+    border-style: dotted none none;
+    width:10%;
+    height: 10px;
+    border-width: 5px;
+    color: firebrick;
+
+
+}
+
+
+div.gallery {
+
+  margin-left: 280px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+button{
+  display: block;
+  flex-flow: row wrap;
+    font-size: xx-large;
+    font-family: helvetica;
+    color: darkolivegreen;
+    box-shadow: black;
+    border: firebrick dotted;
+}
+label{
+    font-family: helvetica;
+    padding: 10px;
+}
+
+fieldset {
+  width: 360px;
+background-color: whitesmoke;
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+
+
+
+
+
+
+}

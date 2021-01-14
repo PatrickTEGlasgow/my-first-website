@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+<head>
+  <meta charset="utf-8">
+  <title> Order from Sal's</title>
+
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <header>
+    <h1>Sal's Pizzeria </h1>
+  </header>
+</head>
+
+<body>
+
+<div class="orderform">
+
+
+
+
+
+  <table align="center" cellpadding="20">
+    <tr>
+      <td> <a href="index.html" class="home">About Sal's</a></td>
+
+
+
+      <td><a href="orderform.html" class="order">Order a Pizza</a> </td>
+
+    </tr>
+
+
+  </table>
+
+
+  <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="get">
+
+
+
+
+
+
+
+
+      <h2 class="salsheading">Choose Your Pizza</h2>
+
+      <fieldset>
+
+        <h4>Size</h4>
+        <p>We give our sizes in square inches to give you an needlessly specific idea of how much pizza you're getting for your money</p>
+
+        <input type="radio" name="size" id="50inch" value="50 square inches">
+        <label for="50inch">50 square inches</label>
+
+        <input type="radio" name="size" id="113inch" value="113 square inches" checked>
+        <label for="113inch">113 square inches</label>
+
+        <input type="radio" name="size" id="201inch" value="201 square inches">
+        <label for="201inch">201 square inches</label>
+
+        <h4>In terms of style, you're after...</h4>
+
+        <input type="radio" name="style" id="newyork" value="New York" checked>
+        <label for="newyork">New York</label>
+
+        <input type="radio" name="style" id="chicago" value="Chicago">
+        <label for="chicago">Chicago</label>
+
+        <input type="radio" name="style" id="naples" value="Neapolitan">
+        <label for="naples">Neapolitan</label>
+
+        <input type="radio" name="style" id="crunch" value="Pizza Crunch">
+        <label for="crunch">Pizza Crunch</label>
+
+        <h4>Toppings</h4>
+
+        <p>
+          <label for="pizza-choice">Choose from one of our classics:</label>
+
+
+
+
+
+          <input list="pizza-classics" id="pizza-choice" name="pizza-classics" />
+          <datalist id="pizza-classics">
+            <option value="Margherita">
+            <option value="Pepperoni">
+            <option value="Hawaniian">
+            <option value="Carnage Meat Extravaganza">
+            <option value="Hotter than the Sun: Spicey">
+          </datalist>
+        </p>
+
+
+
+        <table>
+
+          <tbody>
+
+
+
+
+
+      <label for="">Choose Extra Toppings:</label>
+
+      <tr>
+        <td>
+
+
+
+          <label for="Banana">Banana</label>
+          <input type="checkbox" name="Banana" value="yes" id="Banana">
+
+          <label for="Basil">Basil</label>
+          <input type="checkbox" name="Basil" value="yes" id="Basil">
+
+          <label for="Quail Eggs">Quail Eggs</label>
+          <input type="checkbox" name="Quail Eggs" value="yes" id="Quail Eggs">
+
+
+
+        </td>
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </fieldset>
+
+
+
+      <h2 class="salsheading">Who's responsible for this abomination?</h2>
+
+      <fieldset>
+
+
+
+        <table>
+          <tbody>
+
+            <tr>
+              <td>
+                <br>
+                <label for="Name">Your Name </label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+              </td>
+            </tr>
+
+
+            </tr>
+            <tr>
+              <td>
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="address">Address</label>
+              </td>
+              <td>
+                <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Address" required></textarea>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <label for="email">Emaill Address</label>
+                <input type="email" name="email" id="email" placeholder="Email Address">
+              </td>
+
+
+
+
+        </table>
+      </fieldset>
+
+      <h2 class="salsheading">Payment</h2>
+
+      <fieldset>
+
+
+
+        <table>
+          <tbody>
+            How are you paying?
+            <tr>
+              <td>
+                <input type="radio" name="home" id="home ">
+                <label for="home">At the door</label>
+              </td>
+              <td>
+                <input type="radio" name="home" id="now">
+                <label for="now">Online</label>
+              </td>
+
+            </tr>
+
+
+            <tr>
+              <td>
+                <label for="bank">Bank Details</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="cardnumber">Card Number</label>
+                <input type="text" name="cardnumber" id="cardnumber" placeholder="16 digits">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="expirydate">Expiry Date</label>
+                <input type="text" name="expirydate" id="expirydate" placeholder="**/**">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="svv">SVV</label>
+                <input type="svv" name="svv" id="svv" placeholder="***">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+      <p>
+
+
+
+
+
+      <h2 class="salsheading"> Anything Else to Add? </h2>
+
+      <table>
+
+        <tr>
+          <td>
+            <label for="extrainfo"></label>
+          </td>
+          <td>
+            <textarea name="extrainfo" id="extrainfo" cols="30" rows="10" placeholder="Maybe you have a dog who'll bite Mookie" required></textarea>
+          </td>
+        </tr>
+
+
+      </table>
+
+      <input type="submit" value="submit">
+      </p>
+
+  </form>
+
+
+</div>
+
+</body>
+
+</html>
